@@ -11,7 +11,7 @@ def ask_user(answers):
             answer = get_answer(user_input.lower(), answers)
             print(answer)
         except(KeyboardInterrupt):
-            print('Пока')
+            print("\nДо свидания")
             break
 
 ask_user(answers)
